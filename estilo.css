@@ -6,8 +6,8 @@ body {
 
 h1 {
     color: #3d3d3d;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 button {
@@ -16,4 +16,12 @@ button {
     border-radius: 5px;
 
     display: inline-block;
+
+    transition: width 0.5s;
+}
+
+button:hover {
+    background-color: #3d3d3d;
+    color: #ddd;
+    width: 20rem;
 }
