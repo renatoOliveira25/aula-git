@@ -1,3 +1,9 @@
 body {
     background-color: red;
 }
+
+h1 {
+    color: #3d3d3d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+}
